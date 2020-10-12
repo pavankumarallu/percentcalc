@@ -1,0 +1,83 @@
+body
+{
+    background-color: lightcyan;
+}
+#sub
+{
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#set
+{
+    width: 470px;
+    left: 50%;
+    top: 50%;
+    transform: translate(95%,50%);
+    border-radius: 4em;
+    border-style: all;
+    border-width: 20px;
+    backface-visibility: unset;
+    background: rgb(0,0,0,0.2);
+    color: black;
+    size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+#set:hover
+{
+    width: 550px;
+    background: rgb(0,0,0,0.6);
+    color: white;
+}
+#but
+{
+    transform: translate(120%);
+    width: 120px;
+    font-size: 20px;
+    color: black;
+    background-color:lightgreen;
+    border-color: black;
+    border-radius: 15em;
+    border-style: all;
+    border-width: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+#but:hover
+{
+    background-color: green;
+    border-width: 1px;
+    font-size: 30px;
+    width: 140px;
+    color: white;
+
+}
+
+#wp
+{
+    width: 30px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#science
+{
+    width: 30px;
+    font-style: italic;
+    font-family: cursive;
+}
+#math
+{
+    width: 30px;
+    font-style: italic;
+    font-family: cursive;
+}
+#eng
+{
+    width: 30px;
+    font-style: italic;
+    font-family: cursive;
+}

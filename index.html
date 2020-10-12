@@ -1,105 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<style type="text/css">
-		body
-		{
-			background-color: lightblue;
-		}
-		#sub
-		{
-			float: left;
-			padding: 10px;
-			margin: 5px;
-			font-size: 20px;
-		}
-		
-		#set
-		{
-			width: 470px;
-			left: 50%;
-			top: 50%;
-			transform: translate(95%,50%);
-			border-radius: 4em;
-			border-style: all;
-			border-width: 20px;
-			backface-visibility: unset;
-			background: rgb(0,0,0,0.2);
-			color: black;
-			size: 20px;
-			cursor: pointer;
-			transition: 1s;
-		}
-		#set:hover
-		{
-			width: 550px;
-			background: rgb(0,0,0,0.6);
-			color: white;
-		}
-		#but
-		{
-			transform: translate(120%);
-			width: 120px;
-			font-size: 20px;
-			color: black;
-			background-color:lightgreen;
-			border-color: black;
-			border-radius: 15em;
-			border-style: all;
-			border-width: 10px;
-			cursor: pointer;
-			transition: 1s;
-		}
-		#but:hover
-		{
-			background-color: green;
-			border-width: 1px;
-			font-size: 30px;
-			width: 140px;
-			color: white;
-
-		}
-
-		#wp
-		{
-			width: 30px;
-
-		}
-
-		#science
-		{
-			width: 30px;
-		}
-		#math
-		{
-			width: 30px;
-		}
-		#eng
-		{
-			width: 30px;
-		}
-	</style>
-
-	<script type="text/javascript">
-		var name= prompt("enter your name");
-		document.write("Hello"+"   "+name+".");
-		document.write("\nPlease enter your marks");
-		function set()
-		{
-			let wp=document.getElementById("wp").value;
-			let math=document.getElementById("math").value;
-			let science=document.getElementById("science").value;
-			let english=document.getElementById("eng").value;
-
-
-			let total=parseFloat(wp)+parseFloat(math)+parseFloat(science)+parseFloat(english);
-			alert(total);
-			document.getElementById("tot").innerHTML="total is:"+total;
-			let percent=(total/400)*100;
-			document.getElementById("per").innerHTML="percentage is:"+percent+"%";
-		}
-	</script>
+	<title>Grade Calculator</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="script.js" type="text/javascript">
+	
 </head>
 <body>
 	<fieldset id="set">
